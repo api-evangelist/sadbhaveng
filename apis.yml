@@ -1,8 +1,27 @@
 aid: sadbhaveng
-name: Sadbhaveng
-description: 'Sadbhaveng is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sadbhaveng.png
+name: Sadbhav Engineering Limited
+description: 'Sadbhav Engineering Limited (SEL), operating at sadbhaveng.com, is an
+  Indian infrastructure and civil-engineering contractor founded in 1988 by Vishnubhai
+  M. Patel and headquartered in Ahmedabad, Gujarat. The company builds and operates
+  large-scale roads and highways, mining, and irrigation projects, including Build-Operate-Transfer
+  (BOT) concessions of national significance, and is publicly listed on the NSE and
+  BSE. This is a traditional infrastructure/construction firm: it publishes an investor-relations
+  and corporate website but exposes no developer API, SDK, documentation, or other
+  machine-readable API surface. Surfaced into the API Evangelist network as a stub
+  via vc-portfolio harvesting; an enrichment pass confirmed there is no API product
+  to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/sadbhaveng/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Infrastructure
+- Construction
+- Engineering
+- Roads and Highways
+- Mining
+- Irrigation
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sadbhaveng-domain-security.yml
 - type: Website
-  url: https://sadbhaveng.com
+  url: https://www.sadbhaveng.com/
+- type: PrivacyPolicy
+  url: https://www.sadbhaveng.com/privacy-poilcy/
+- type: Support
+  url: https://www.sadbhaveng.com/contact-us/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
